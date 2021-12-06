@@ -12,6 +12,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "prepare": "husky install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,7 +22,8 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {}
   },
   "lint-staged": {
     "**/*.js": [
